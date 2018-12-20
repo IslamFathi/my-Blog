@@ -1,0 +1,42 @@
+
+/* Blog */
+.blog {
+    background-image: url(../imgs/pricing.jpg);
+    background-size: 100% 100%;
+    transition: 4s;
+    background-attachment: fixed;
+
+}
+
+.blog:hover {}
+
+.overlay-blog {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.blog img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    padding: 50px;
+    transition: 1s;
+}
+.blog img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.blog .caption h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.blog .caption hr {
+    text-align: center;
+    width: 50px;
+}
+
+/* End of Blog */
